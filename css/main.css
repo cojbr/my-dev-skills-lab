@@ -1,0 +1,54 @@
+html {
+    font-family: "PT Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+table {
+    width: 300px;
+}
+
+thead {
+    background-color: rgb(136, 188, 121);
+    color: white;
+}
+
+th {
+    padding: 5px;
+}
+
+tfoot tr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+
+}
+
+#input-add-skill {
+    border: 2px solid rgb(136, 188, 121);
+    background-color: white;
+    margin: 8px 15px 8px 0;
+    width: 200px;
+    height: 25px;
+
+}
+
+#button-add-skill {
+    border: 2px solid rgb(136, 188, 121);
+    background-color: white;
+    color: rgb(136, 188, 121);
+    font-size: 10px;
+    font-weight: 500;
+    padding: 5px;
+    width: 70px;
+}
